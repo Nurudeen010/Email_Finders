@@ -1,7 +1,7 @@
 import csv
 from Test_Soup import ScrapLink
 
-
+# Input the URLs of the website you are finding the emails from
 urls =[
 "https://www.reliantplumbing.com/",
 "https://www.plumbersthatcare.com/",

@@ -16,18 +16,18 @@ This project is a Python-based web scraping tool for extracting email addresses 
 ### Installation
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/web-scraping-email-extraction.git
-2. cd web-scraping-email-extraction
+   git clone https://github.com/Nurudeen010/Email_Finders.git
+2. cd Email_Finders
 3. pip install -r requirements.txt
 
 ### Usage
-1. Add URLs to the urls list in scrapper.py.
+1. Add URLs to the URLs list in scrapper.py.
 2. Run the script: python scrapper.py
 3. Check the generated emails.csv file for extracted email addresses.
 
 ### Contribution
-1. Adjust the wait time for dynamic content loading in ScrapLink function (driver.implicitly_wait()).
-2. Customize the email extraction regex pattern in ScrapLink function (email_pattern).
+1. Adjust the wait time for dynamic content loading in the ScrapLink function (driver.implicitly_wait()).
+2. Customize the email extraction regex pattern in the ScrapLink function (email_pattern).
 
 ### Contributing
 Contributions are welcome! Fork the repository and submit a pull request.
